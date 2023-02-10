@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/KafkaConsumer" />
+        <option name="gradleJvm" value="semeru-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/KafkaConsumer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/KafkaProducer" />
+        <option name="gradleJvm" value="semeru-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/KafkaProducer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

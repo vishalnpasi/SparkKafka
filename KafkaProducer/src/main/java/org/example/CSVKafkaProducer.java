@@ -44,6 +44,7 @@ public class CSVKafkaProducer {
         final Producer<String, String> csvProducer = ProducerProperties();
 
         try{
+
             URI uri = getClass().getClassLoader().getResource(CsvFile).toURI();
             Stream<String> FileStream = Files.lines(Paths.get(uri));
 
